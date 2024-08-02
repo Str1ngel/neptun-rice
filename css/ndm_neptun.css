@@ -1,3 +1,23 @@
+/* orarentervezo */
+
+.orarendtervezo {
+    border-color: var(--backgroundColor);
+}
+
+.orarendtervezo>#upFunction_h_addsubjects_upOrarendTervezo_Nagyitas {
+    background-color: transparent !important;
+    position: absolute;
+}
+
+.orarendtervezo>.orarendtervezo_fejlec {
+    background-color: var(--backgroundColor) !important;
+}
+
+
+.behaviorupFunction_h_addsubjects_upOrarendTervezoModal_modal_orarendtervezo .span {
+    color: black !important;
+}
+
 /** Base recolor **/
 
 :root {
@@ -512,10 +532,6 @@ div.tartalom>div.elem {
     display: flex;
 }
 
-#h_template_list_gridAvailable_bodytable tr {
-    border-color: var(--neptunBorderColor) !important;
-}
-
 /** Neptun Powerup **/
 
 #h_addsubjects_gridSubjects_grid_body_div #h_addsubjects_gridSubjects_bodytable tr.Row1_Bold td,
@@ -524,15 +540,9 @@ div.tartalom>div.elem {
 #h_addsubjects_gridSubjects_grid_body_div #Addsubject_course1_gridCourses_bodytable tr.Row1_Bold_sel td,
 #h_addsubjects_gridSubjects_grid_body_div #Addsubject_course1_gridCourses_grid_body_div tr.Row1_Bold_sel td,
 #h_addsubjects_gridSubjects_grid_body_div #h_addsubjects_gridSubjects_bodytable tr.context_selectedrow td,
-#h_signedexams_gridExamList_grid_body_div #h_signedexams_gridExamList_bodytable tr.npu_missed td,
-body #h_addsubjects_gridSubjects_bodytable tr.Row1_Bold td,
-body #Addsubject_course1_gridCourses_bodytable tr.Row1_sel td,
-body #Addsubject_course1_gridCourses_grid_body_div tr.Row1_sel td,
-body #Addsubject_course1_gridCourses_bodytable tr.Row1_Bold_sel td,
-body #Addsubject_course1_gridCourses_grid_body_div tr.Row1_Bold_sel td,
-body #h_addsubjects_gridSubjects_bodytable tr.context_selectedrow td {
+#h_signedexams_gridExamList_grid_body_div #h_signedexams_gridExamList_bodytable tr.npu_missed td {
     background-color: var(--npuYellow) !important;
-    color: var(--darkText) !important;
+    color: var(--textColor) !important;
 }
 
 #h_addsubjects_gridSubjects_grid_body_div #h_addsubjects_gridSubjects_bodytable tr.npu_completed td,
@@ -540,7 +550,7 @@ body #h_addsubjects_gridSubjects_bodytable tr.context_selectedrow td {
 #h_signedexams_gridExamList_grid_body_div #h_signedexams_gridExamList_bodytable tr.npu_completed td,
 #h_markbook_gridIndexEntry_grid_body_div #h_markbook_gridIndexEntry_bodytable tr.SubjectCompletedRow td {
     background-color: var(--npuGreen) !important;
-    color: var(--darkText) !important;
+    color: var(--textColor) !important;
 }
 
 #h_addsubjects_gridSubjects_grid_body_div #h_addsubjects_gridSubjects_bodytable tr td.npu_choice_mark,
@@ -596,12 +606,16 @@ td>span.link>a {
     border-color: var(--neptunBorderColor) !important;
 }
 
+.ui-dialog .ui-dialog-title {
+    color: var(--textColor);
+}
+
 .ui-widget-content {
     background: unset !important;
     background-color: var(--backgroundColor) !important;
 }
 
-.ui-widget-content * {
+.ui-widget-content:not(.ui-widget-content>.behaviorupFunction_h_addsubjects_upOrarendTervezoModal_modal_orarendtervezo) {
     color: var(--textColor) !important;
 }
 
