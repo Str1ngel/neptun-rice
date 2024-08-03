@@ -2,11 +2,19 @@
 // @name         Neptun Rice
 // @namespace    https://stringel.hu/
 // @homepage     https://github.com/Str1ngel/neptun-rice
-// @version      v0.0.2
+// @version      v0.0.3
 // @description  Extensive theming for Neptun (dark base only)
 // @author       Svecov Szergej
 // @match        https://neptun.uni-obuda.hu/*
 // @match        https://*.neptun.uni-obuda.hu/*
+// @match        https://*neptun*/*hallgato*/*
+// @match        https://*neptun*/*Hallgatoi*/*
+// @match        https://*hallgato*.*neptun*/*
+// @match        https://*oktato*.*neptun*/*
+// @match        https://netw*.nnet.sze.hu/hallgato/*
+// @match        https://nappw.dfad.duf.hu/hallgato/*
+// @match        https://host.sdakft.hu/*
+// @match        https://neptun.ejf.hu/ejfhw/*
 // @grant        GM.addStyle
 // @grant        GM.setValue
 // @grant        GM.getValue
