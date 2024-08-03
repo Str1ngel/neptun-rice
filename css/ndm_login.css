@@ -123,6 +123,12 @@ span#lblModuleType {
 #btnSubmit {
     margin: 1rem 0;
     width: 100%;
+    transition: all 0.3s;
+}
+
+#btnSubmit:hover {
+    background-color: var(--neptunPrimary);
+    filter: brightness(1.1);
 }
 
 #divForgottenPassword {
