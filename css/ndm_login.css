@@ -6,13 +6,17 @@ footer {
 }
 
 body {
-    background-color: var(--backgroundColor) !important;
+    /* background-color: var(--backgroundColor) !important; */
+    overflow-x: hidden;
+
+    /* <div class="relative h-full w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div><div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div></div> */
+    background: radial-gradient(125% 50% at 50% 10%, #000 50%, var(--neptunPrimary) 100%) !important;
 }
 
 footer.page-footer,
 nav.navbar,
 footer {
-    background-color: var(--backgroundColor) !important;
+    background-color: transparent !important;
 }
 
 div.card,
@@ -49,3 +53,189 @@ main>div.mx-auto.grid {
     border-color: var(--backgroundColor) !important;
     color: var(--textColor) !important;
 }
+
+/* Disable useless styles */
+
+.login_right_side {
+    display: none;
+}
+
+#tdIstitute {
+    display: none;
+}
+
+#pnlValtas {
+    display: none;
+}
+
+.tr_LeftImage td[orgid="hallgato_default"] {
+    background-image: none !important;
+}
+
+.tr_Logo {
+    display: none;
+}
+
+span#lblModuleType {
+    display: none;
+}
+
+.tr_Footer {
+    display: none;
+}
+
+.login_content_news>img,
+.login_content_docs>img,
+.login_content_links>img {
+    display: none;
+}
+
+#btnSubmit_hiddenlabel {
+    display: none;
+}
+
+/* Customize Login Page */
+
+.login_center {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+.login_background_table {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.login_button_td {
+    padding: 0 16px;
+}
+
+#btnSubmit {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+#divForgottenPassword {
+    margin: 0 !important;
+    display: flex;
+    justify-content: left;
+}
+
+#lnkForgottenPassword {
+    margin: 0 !important;
+    background-color: var(--backgroundColor);
+    padding: 1px 1rem;
+}
+
+#backToLastPage {
+    margin: 1rem 0px !important;
+}
+
+table.table_center {
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.login_left_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+table.table_center>tbody>tr {
+    padding: 30px;
+}
+
+.login_input {
+    padding: 8px;
+}
+
+.login_input>input {
+    background-color: var(--darkerBackground);
+    border: none;
+    border-radius: 8px;
+    color: var(--textColor);
+    padding: 8px;
+}
+
+.login_input>input#pwd {
+    width: none !important;
+}
+
+.login_input>select#user_sel {
+    background-color: var(--darkerBackground);
+    border: none;
+    border-radius: 8px;
+    color: var(--textColor);
+    padding: 8px;
+    width: 100%;
+}
+
+/* Customize Table */
+#tableMain {
+    background-color: transparent;
+}
+
+#labelDiakhitel {
+    color: var(--textColor);
+}
+
+#labelDiakhitel>a {
+    color: var(--neptunPrimary) !important;
+}
+
+.login_content_separator {
+    background-image: none !important;
+    background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 1.5rem;
+    padding: 0;
+}
+
+.no_style_left,
+.login_content_news,
+.login_content_docs,
+.login_content_links {
+    padding: 1rem 1rem;
+}
+
+.login_content_news,
+.login_content_docs,
+.login_content_links {
+    color: var(--textColor);
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--textColor);
+}
+
+.login_news_subject>a,
+.login_news_date {
+    color: var(--neptunPrimary) !important;
+}
+
+.login_news_content *,
+.login_news_content>* {
+    color: var(--textColor) !important;
+    background-color: transparent !important;
+}
+
+.login_news_more>a {
+    color: var(--textColor) !important;
+    background-color: var(--neptunPrimary) !important;
+}
+
+.info_table_center {
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 1.5rem;
+}
+
+/* Debug tool */
+/* 
+* {
+    outline: rgb(255, 0, 43) solid 1px !important;
+} */
