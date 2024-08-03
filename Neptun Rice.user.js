@@ -2,7 +2,7 @@
 // @name         Neptun Rice
 // @namespace    https://stringel.hu/
 // @homepage     https://github.com/Str1ngel/neptun-rice
-// @version      v0.0.1
+// @version      v0.0.2
 // @description  Extensive theming for Neptun (dark base only)
 // @author       Svecov Szergej
 // @match        https://neptun.uni-obuda.hu/*
