@@ -44,16 +44,24 @@ td.FunctionRightSide {
     background-image: url("https://glorantv.web.elte.hu/neptun_assets/content_border.png") !important;
 }
 
+/* Navigation bar */
 td.top_menu_left {
-    background-image: url("https://glorantv.web.elte.hu/neptun_assets/top_menu_left.png") !important;
+    background-image: none !important;
 }
 
 td.top_menu_right {
-    background-image: url("https://glorantv.web.elte.hu/neptun_assets/top_menu_right.png") !important;
+    background-image: none !important;
 }
 
 td.top_menu_mid {
-    background-image: url("https://glorantv.web.elte.hu/neptun_assets/top_menu_mid.png") !important;
+    background-image: none !important;
+
+}
+
+td.top_menu_mid ul {
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 div#panCloseHeader {

@@ -18,6 +18,24 @@
     color: black !important;
 }
 
+/* navbar */
+.top_menu_wrapper {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1rem auto;
+    background-color: var(--backgroundColor) !important;
+    filter: brightness(0.9) !important;
+    border: 1px solid var(--darkerBackground) !important;
+    border-color: var(--neptunLightGray) !important;
+    border-radius: 2rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.top_menu_wrapper .top_menu_left,
+.top_menu_wrapper .top_menu_right {
+    display: none;
+}
+
 /** Base recolor **/
 
 :root {
