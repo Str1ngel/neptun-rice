@@ -22,7 +22,7 @@
 // @run-at       document-start
 // @updateURL    https://github.com/Str1ngel/neptun-rice/releases/latest/download/Neptun.Rice.user.js
 // @downloadURL  https://github.com/Str1ngel/neptun-rice/releases/latest/download/Neptun.Rice.user.js
-// @supportURL   https://github.com/glorantq/neptun-rice/issues
+// @supportURL   https://github.com/Str1ngel/neptun-rice/issues
 // ==/UserScript==
 
 (async function () {
@@ -111,7 +111,7 @@
         attribution1.id = "ndm_attribution1";
 
         const scriptName = document.createElement("a");
-        scriptName.href = "https://github.com/glorantq/neptun-rice";
+        scriptName.href = "https://github.com/Str1ngel/neptun-rice";
         scriptName.target = "_blank";
         scriptName.innerText = `${GM.info.script.name} ${GM.info.script.version}:`;
 
